@@ -97,6 +97,7 @@ class ViewController: UIViewController {
         求值()
     }
     func 按(数字:String){
+        
         显示缓存 += 数字
         显示.text = 显示缓存
         
