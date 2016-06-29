@@ -59,6 +59,14 @@ class ViewController: UIViewController {
     @IBAction func point(sender: AnyObject) {
         按(".")
     }
+    @IBAction func sqrt(sender: AnyObject) {
+        计算器.设置当前算法(.开根运算)
+        求值()
+    }
+    @IBAction func percent(sender: AnyObject) {
+        计算器.设置当前算法(.百分号)
+        求值()
+    }
     @IBAction func add(sender: AnyObject) {
         计算器.设置当前算法(.加法)
         求值()

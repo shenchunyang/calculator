@@ -22,6 +22,8 @@ struct 计算 {
         case 减法
         case 乘法
         case 除法
+        case 百分号
+        case 开根运算
         case 指数幂
         case 未选择
     }
@@ -43,6 +45,10 @@ struct 计算 {
                 临时 *= 操作数
             }
             返回 = "\(临时)"
+        case .百分号:
+            返回 = "\(操作数 / 100)"
+        case .开根运算:
+            返回 =  " \(sqrt(操作数))"
         case .未选择:
             返回 = "错误：未选择算法！！"
         default:

@@ -29,7 +29,9 @@
                                 <rect key="frame" x="87" y="257" width="30" height="30"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" red="0.24063192836786429" green="0.05584144273883862" blue="1" alpha="0.58861369680851061" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="2"/>
+                                <state key="normal" title="2">
+                                    <color key="titleColor" red="0.19593551944775689" green="0.013561146022340598" blue="1" alpha="0.58861369679999997" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="two:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zbb-m2-NLS"/>
                                 </connections>
@@ -38,7 +40,9 @@
                                 <rect key="frame" x="145" y="257" width="30" height="30"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" red="0.24063192836786429" green="0.05584144273883862" blue="1" alpha="0.58861369680851061" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="3"/>
+                                <state key="normal" title="3">
+                                    <color key="titleColor" red="0.19593551944775689" green="0.013561146022340598" blue="1" alpha="0.58861369679999997" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="three:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oKp-OV-DHc"/>
                                 </connections>
@@ -47,7 +51,9 @@
                                 <rect key="frame" x="28" y="320" width="30" height="30"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" red="0.24063192836786429" green="0.05584144273883862" blue="1" alpha="0.58861369680851061" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="0"/>
+                                <state key="normal" title="0">
+                                    <color key="titleColor" red="0.19593551944775689" green="0.013561146022340598" blue="1" alpha="0.58861369679999997" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="zero:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5a8-GM-oIk"/>
                                 </connections>
@@ -56,7 +62,9 @@
                                 <rect key="frame" x="87" y="320" width="30" height="30"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" red="0.24063192836786429" green="0.05584144273883862" blue="1" alpha="0.58861369680851061" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="."/>
+                                <state key="normal" title=".">
+                                    <color key="titleColor" red="0.19593551944775689" green="0.013561146022340598" blue="1" alpha="0.58861369679999997" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="point:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H6O-vJ-Xnb"/>
                                 </connections>
@@ -65,7 +73,9 @@
                                 <rect key="frame" x="145" y="320" width="30" height="30"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" red="0.24063192836786429" green="0.05584144273883862" blue="1" alpha="0.58861369680851061" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="="/>
+                                <state key="normal" title="=">
+                                    <color key="titleColor" red="0.19593551944775689" green="0.013561146022340598" blue="1" alpha="0.58861369679999997" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="结果:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zpf-D3-5BN"/>
                                 </connections>
@@ -74,7 +84,9 @@
                                 <rect key="frame" x="216" y="257" width="30" height="30"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" red="0.24063192836786429" green="0.05584144273883862" blue="1" alpha="0.58861369680851061" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="*"/>
+                                <state key="normal" title="*">
+                                    <color key="titleColor" red="0.19593551944775689" green="0.013561146022340598" blue="1" alpha="0.58861369679999997" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="multiply:" destination="BYZ-38-t0r" eventType="touchUpInside" id="POY-kS-Ww2"/>
                                 </connections>
@@ -83,7 +95,9 @@
                                 <rect key="frame" x="216" y="320" width="30" height="30"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" red="0.24063192836786429" green="0.05584144273883862" blue="1" alpha="0.58861369680851061" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="/"/>
+                                <state key="normal" title="/">
+                                    <color key="titleColor" red="0.19593551944775689" green="0.013561146022340598" blue="1" alpha="0.58861369679999997" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="division:" destination="BYZ-38-t0r" eventType="touchUpInside" id="t6r-Zq-oeh"/>
                                 </connections>
@@ -92,7 +106,9 @@
                                 <rect key="frame" x="270" y="257" width="30" height="30"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" red="0.24063192836786429" green="0.05584144273883862" blue="1" alpha="0.58861369680851061" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="XY"/>
+                                <state key="normal" title="XY">
+                                    <color key="titleColor" red="0.19593551944775689" green="0.013561146022340598" blue="1" alpha="0.58861369679999997" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="指数幂:" destination="BYZ-38-t0r" eventType="touchUpInside" id="105-ws-dSf"/>
                                 </connections>
@@ -101,7 +117,9 @@
                                 <rect key="frame" x="28" y="120" width="30" height="30"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" red="0.24063192836786429" green="0.05584144273883862" blue="1" alpha="0.58861369680851061" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="7"/>
+                                <state key="normal" title="7">
+                                    <color key="titleColor" red="0.19593551944775689" green="0.013561146022340598" blue="1" alpha="0.58861369679999997" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="seven:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jeF-Ia-FRP"/>
                                 </connections>
@@ -110,7 +128,9 @@
                                 <rect key="frame" x="87" y="120" width="30" height="30"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" red="0.24063192836786429" green="0.05584144273883862" blue="1" alpha="0.58861369680851061" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="8"/>
+                                <state key="normal" title="8">
+                                    <color key="titleColor" red="0.19593551944775689" green="0.013561146022340598" blue="1" alpha="0.58861369679999997" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="eight:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hQv-5e-3iT"/>
                                 </connections>
@@ -119,7 +139,9 @@
                                 <rect key="frame" x="145" y="120" width="30" height="30"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" red="0.24063192836786429" green="0.05584144273883862" blue="1" alpha="0.58861369680851061" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="9"/>
+                                <state key="normal" title="9">
+                                    <color key="titleColor" red="0.19593551944775689" green="0.013561146022340598" blue="1" alpha="0.58861369679999997" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="nine:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mNG-HW-Dvv"/>
                                 </connections>
@@ -128,7 +150,9 @@
                                 <rect key="frame" x="28" y="187" width="30" height="30"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" red="0.24063192836786429" green="0.05584144273883862" blue="1" alpha="0.58861369680851061" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="4"/>
+                                <state key="normal" title="4">
+                                    <color key="titleColor" red="0.19593551944775689" green="0.013561146022340598" blue="1" alpha="0.58861369679999997" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="four:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cYs-gQ-p6a"/>
                                 </connections>
@@ -137,7 +161,9 @@
                                 <rect key="frame" x="87" y="187" width="30" height="30"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" red="0.24063192836786429" green="0.05584144273883862" blue="1" alpha="0.58861369680851061" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="5"/>
+                                <state key="normal" title="5">
+                                    <color key="titleColor" red="0.19593551944775689" green="0.013561146022340598" blue="1" alpha="0.58861369679999997" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="five:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LSh-Rr-Gmq"/>
                                 </connections>
@@ -146,7 +172,9 @@
                                 <rect key="frame" x="145" y="187" width="30" height="30"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" red="0.24063192836786429" green="0.05584144273883862" blue="1" alpha="0.58861369680851061" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="6"/>
+                                <state key="normal" title="6">
+                                    <color key="titleColor" red="0.19593551944775689" green="0.013561146022340598" blue="1" alpha="0.58861369679999997" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="six:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7k6-Fr-DdC"/>
                                 </connections>
@@ -155,7 +183,9 @@
                                 <rect key="frame" x="28" y="257" width="30" height="30"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" red="0.24063192836786429" green="0.05584144273883862" blue="1" alpha="0.58861369680851061" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="1"/>
+                                <state key="normal" title="1">
+                                    <color key="titleColor" red="0.19593551944775689" green="0.013561146022340598" blue="1" alpha="0.58861369679999997" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="one:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0bV-MS-afe"/>
                                 </connections>
@@ -164,7 +194,9 @@
                                 <rect key="frame" x="216" y="120" width="30" height="30"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" red="0.24063192836786429" green="0.05584144273883862" blue="1" alpha="0.58861369680851061" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="+"/>
+                                <state key="normal" title="+">
+                                    <color key="titleColor" red="0.19593551944775689" green="0.013561146022340598" blue="1" alpha="0.58861369679999997" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="add:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UAt-ay-8sG"/>
                                 </connections>
@@ -173,7 +205,9 @@
                                 <rect key="frame" x="216" y="187" width="30" height="30"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" red="0.24063192836786429" green="0.05584144273883862" blue="1" alpha="0.58861369680851061" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="-"/>
+                                <state key="normal" title="-">
+                                    <color key="titleColor" red="0.19593551944775689" green="0.013561146022340598" blue="1" alpha="0.58861369679999997" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="minus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Oi-MP-bxH"/>
                                 </connections>
@@ -182,7 +216,9 @@
                                 <rect key="frame" x="270" y="120" width="30" height="30"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" red="0.24063192836786429" green="0.05584144273883862" blue="1" alpha="0.58861369680851061" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="C"/>
+                                <state key="normal" title="C">
+                                    <color key="titleColor" red="0.19593551944775689" green="0.013561146022340598" blue="1" alpha="0.58861369679999997" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="指数幂:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eMR-QZ-G8l"/>
                                     <action selector="清空当前算法:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lLc-la-Zhe"/>
@@ -192,10 +228,31 @@
                                 <rect key="frame" x="270" y="187" width="30" height="30"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" red="0.24063192836786429" green="0.05584144273883862" blue="1" alpha="0.58861369680851061" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="AC"/>
+                                <state key="normal" title="AC">
+                                    <color key="titleColor" red="0.19593551944775689" green="0.013561146022340598" blue="1" alpha="0.58861369679999997" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="指数幂:" destination="BYZ-38-t0r" eventType="touchUpInside" id="z5U-vv-wCj"/>
                                     <action selector="清空所有算法:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AkC-RQ-VDk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fnI-cC-oEX">
+                                <rect key="frame" x="270" y="320" width="30" height="30"/>
+                                <color key="tintColor" red="0.43365303921012555" green="0.18715201285202698" blue="1" alpha="0.58861369679999997" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="％">
+                                    <color key="titleColor" red="0.19593551944775689" green="0.013561146022340598" blue="1" alpha="0.58861369679999997" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="percent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9IF-KY-nLX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hLw-sd-SVo">
+                                <rect key="frame" x="270" y="374" width="30" height="30"/>
+                                <state key="normal" title="√">
+                                    <color key="titleColor" red="0.19593551944775689" green="0.013561146022340598" blue="1" alpha="0.58861369679999997" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="sqrt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bzc-hp-MT6"/>
                                 </connections>
                             </button>
                         </subviews>
