@@ -17,14 +17,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZCw-8g-Z7S">
-                                <rect key="frame" x="20" y="42" width="280" height="30"/>
-                                <color key="backgroundColor" red="0.41694396787911103" green="0.27641877875056015" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="tintColor" red="0.1872167950314092" green="1" blue="0.92733560681638705" alpha="0.58861369679999997" colorSpace="calibratedRGB"/>
-                                <color key="textColor" red="1" green="0.92914704403588755" blue="0.46204302220205185" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3SB-Iu-h3s">
                                 <rect key="frame" x="87" y="257" width="30" height="30"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -89,6 +81,7 @@
                                 </state>
                                 <connections>
                                     <action selector="multiply:" destination="BYZ-38-t0r" eventType="touchUpInside" id="POY-kS-Ww2"/>
+                                    <action selector="结果:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dWy-ey-aXI"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z5Z-um-OLj">
@@ -232,12 +225,12 @@
                                     <color key="titleColor" red="0.19593551944775689" green="0.013561146022340598" blue="1" alpha="0.58861369679999997" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="指数幂:" destination="BYZ-38-t0r" eventType="touchUpInside" id="z5U-vv-wCj"/>
                                     <action selector="清空所有算法:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AkC-RQ-VDk"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fnI-cC-oEX">
                                 <rect key="frame" x="270" y="320" width="30" height="30"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" red="0.43365303921012555" green="0.18715201285202698" blue="1" alpha="0.58861369679999997" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="％">
                                     <color key="titleColor" red="0.19593551944775689" green="0.013561146022340598" blue="1" alpha="0.58861369679999997" colorSpace="calibratedRGB"/>
@@ -248,6 +241,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hLw-sd-SVo">
                                 <rect key="frame" x="270" y="374" width="30" height="30"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="√">
                                     <color key="titleColor" red="0.19593551944775689" green="0.013561146022340598" blue="1" alpha="0.58861369679999997" colorSpace="calibratedRGB"/>
                                 </state>
@@ -255,8 +249,16 @@
                                     <action selector="sqrt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bzc-hp-MT6"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZCw-8g-Z7S">
+                                <rect key="frame" x="20" y="35" width="280" height="30"/>
+                                <color key="backgroundColor" red="0.98459964990615845" green="0.97306281328201294" blue="0.94368666410446167" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.1872167950314092" green="1" blue="0.92733560681638705" alpha="0.58861369679999997" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
-                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.96585804224014282" green="0.92236036062240601" blue="0.86773222684860229" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
                         <outlet property="显示" destination="ZCw-8g-Z7S" id="hIA-bS-pej"/>

@@ -108,7 +108,6 @@ class ViewController: UIViewController {
         
         显示缓存 += 数字
         显示.text = 显示缓存
-        
     }
     func 求值(){
         var 结果 = ""
@@ -129,7 +128,5 @@ class ViewController: UIViewController {
             缓存 = 0.0
         }
     }
-    
-    
 }
 
