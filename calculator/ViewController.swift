@@ -113,7 +113,8 @@ class ViewController: UIViewController {
         var 结果 = ""
         if !显示缓存.isEmpty {
             let 临时 = 显示缓存 as NSString
-            缓存 = 临时.doubleValue
+            缓存 =
+                临时.doubleValue
             显示缓存 = ""
         }
         let 临时 = 缓存

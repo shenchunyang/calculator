@@ -8,6 +8,7 @@
 
 import Foundation
 
+
 struct 计算 {
     private var 当前算法:算法 = .未选择
     
